@@ -22,4 +22,7 @@
     .icone {
         display: block;
     }
+    .logo img{
+        height: 50px;
+      }
 }
