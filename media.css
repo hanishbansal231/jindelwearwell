@@ -1,0 +1,25 @@
+@media screen and (max-width:600px) {
+    .links {
+        position: absolute;
+        top: -300%;
+        left: 0;
+        background: #111820;
+        padding: 5% 0;
+        flex-direction: column;
+        width: 100%;
+        transition: .5s linear;
+
+    }
+
+    .links.active {
+        top: 100%;
+    }
+
+    .links li a {
+        font-size: 1.2em;
+    }
+
+    .icone {
+        display: block;
+    }
+}

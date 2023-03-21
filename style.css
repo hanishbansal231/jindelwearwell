@@ -1,0 +1,49 @@
+/* CSS reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* utility classes */
+.flex{
+  display: flex;
+  align-items: center;
+}
+.hover-link{
+  color: #fff;
+  font-size: 1em;
+}
+/* Nav Bar start for styling */
+nav{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #111820;
+  padding: 0 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+.logo img{
+  height: 80px;
+}
+.main-nav{
+  justify-content: space-between;
+}
+.links{
+  gap: 30px;
+}
+#menu-btn{
+  font-size: 1.5em;
+  color: #fff;
+}
+.icone{
+  display: none;
+}
